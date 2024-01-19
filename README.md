@@ -9,7 +9,7 @@
    ao layout.
 </p>
 <p>
-   Para ver o página rodando, 
+   Para ver o página rodando 
    <a href="https://starbucks-page-two.vercel.app/">Clique Aqui</a>
 </p>
 <h3>
