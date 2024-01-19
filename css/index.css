@@ -94,9 +94,10 @@ Small Screens*/
         padding-top: 85px;
     }
 }
-@media (min-width: 391px) and (min-height: 871px) {
+@media (min-width: 390px) and (min-height: 870px) {
     .img-content {
-        padding-top: 100px;
+        padding-top: 130px;
+        backgroun: red;
     }
 }
 
