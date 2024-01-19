@@ -1,0 +1,249 @@
+
+/*Global settings*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    padding-top: 5px;
+    min-height: 100vh;
+}
+/*------*/
+
+
+/*Configures responsiveness.
+Small Screens*/
+@media screen and (min-width: 350px) {
+    
+    h2 {
+        font-size: 25px;
+        font-weight: 400;
+        padding-top: 20px;
+    }
+    
+    span { /*Highlight text*/
+        font-size: 40px;
+        font-weight: 800;
+    }
+    
+    p {
+        font-size: 13px;
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+    
+    .text-content {
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+    
+    .box-txt {
+        width: 300px;
+    }
+    
+    .btn {
+        background: #017143;
+        color: #ffffff;
+        border: none;
+        border: none;
+        padding: 10px;
+        border-radius: 20px;
+    }
+    
+    .logo {
+        width: 40px;
+        position: absolute;
+        left: 87%;
+        top: 8px;
+    }
+    
+    .starbucks {
+        width: 240px;
+    }
+    
+    .box-image {
+        width: 200px;
+        justify-content: flex-end;
+    }
+    
+    .img-content {
+        width: 100vw;
+        padding-top: 30px;
+    }
+    
+    .menu {
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+        padding-top: 70px;
+    }
+    
+    .small-cup:hover {
+        transform: translateX(25px);
+    }
+    
+    .circle {
+        clip-path: circle(300px at right 650px);
+    }
+}
+
+@media  (min-width: 413px) and (min-height: 735px) {
+    .img-content {
+        padding-top: 85px;
+    }
+}
+
+/*-------*/
+
+
+/*Configures responsiveness.
+Big Screens*/
+@media (min-width: 1022px) and (min-height: 767px) {
+    
+    h2 {
+        font-size: 60px;
+        font-weight: 500;
+    }
+    
+    span { /*Highlight text*/
+        font-size: 70px;
+        font-weight: 900;
+    }
+    
+    p {
+        font-size: 16px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .text-content {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    
+    .box-txt {
+        width: 600px;
+        padding-top: 70px;
+    }
+    
+    .btn {
+        background: #017143;
+        color: #ffffff;
+        border: none;
+        padding: 15px;
+        border-radius: 25px;
+    }
+    
+    .logo {
+        width: 80px;
+        position: static;
+    }
+    
+    .starbucks {
+        width: 300px;
+        animation: anim 1s infinite alternate;
+    }
+    
+    .box-image {
+        width: 400px;
+        top: 150px;
+    }
+    
+    .img-content {
+        width: 100vw;
+        height: 10px;
+    }
+    
+    .menu {
+        flex-direction: row;
+        justify-content: center;
+        position: relative;
+        left: 44%;
+        top: 150px;
+    }
+    
+    .small-cup:hover {
+        transform: translateY(-25px);
+    }
+    
+    .circle {
+        clip-path: circle(300px at right 700px);
+    }
+}
+
+@media (min-width: 1279px) and (min-height: 799px) {
+    .menu {
+        top: 180px;
+    }
+}
+@media (min-width: 1439px) and (min-height: 899px) {
+    .menu {
+        top: 270px;
+    }
+}
+/*---------*/
+
+
+/*Default settings*/
+.text-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+span {
+    color: #017143;
+}
+
+.box-image {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.img-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.full {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.starbucks {
+    z-index: 2;
+}
+
+.small-cup {
+    width: 40px;
+    transition: 1s;
+}
+
+.circle {
+    background: #017143;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/*--------*/
+
+
+/*Animations*/
+@keyframes anim {
+    0% {
+        width: 300px;
+    }
+    100% {
+        width: 308px;
+    }
+}
+/*--------*/
