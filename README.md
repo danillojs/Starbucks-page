@@ -10,7 +10,7 @@
 </p>
 <p>
    Para ver o página rodando, 
-   <a href="starbucks-page-two.vercel.app">Clique Aqui</a>
+   <a href="starbucks-page-qfipqdzz9-danillos-projects-44f110c5.vercel.app">Clique Aqui</a>
 </p>
 <h3>
    Tecnologias usadas
